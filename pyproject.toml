@@ -1,0 +1,20 @@
+[project]
+name = "tutorial-gtk4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "yuyake-litrain", email = "85449119+yuyake-litrain@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pycairo>=1.29.2",
+    "pygobject>=3.58.1",
+]
+
+[project.scripts]
+tutorial-gtk4 = "tutorial_gtk4:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
